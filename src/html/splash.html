@@ -25,9 +25,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
@@ -37,8 +35,8 @@
                             Dropdown
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="/src/html/sa_profile.html">Steven</a></li>
+                            <li><a class="dropdown-item" href="/src/html/mc_profile.html">Mike</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -58,16 +56,28 @@
     </nav>
     <!--Splash Cards-->
     <!--TODO: Use angular to automate creation of cards to support multiple users-->
-    <div class="content">
-        <!--Steve Card-->
-        <div class="card" style="width: 18rem;">
-            <img src="/assets/images/sa_profile.jfif" class="card-img-top" alt="Steven Profile">
-            <div class="card-body">
-                <h5 class="card-title">Steven Anderson</h5>
-                <p class="card-text">Unsure if this line should be used. probably not</p>
-                <a href="/src/html/sa_profile.html" class="btn btn-primary">See Profile</a>
+    <div class="container">
+        <div class="d-flex flex-row">
+            <!--Steve Card-->
+            <div class="card p-2 m-auto" style="width: 18rem;">
+                <img src="/assets/images/sa_profile.jfif" class="card-img-top" alt="Steven Profile">
+                <div class="card-body">
+                    <h5 class="card-title">Steven Anderson</h5>
+                    <p class="card-text">Unsure if this line should be used. probably not</p>
+                    <a href="/src/html/sa_profile.html" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <!--Mike Card-->
+            <div class="card p-2 m-auto" style="width: 18rem;">
+                <img src="/assets/images/mc_profile.jfif" class="card-img-top" alt="Michael Profile">
+                <div class="card-body">
+                    <h5 class="card-title">Michael Chillemi</h5>
+                    <p class="card-text">Unsure if this line should be used. probably not</p>
+                    <a href="/src/html/mc_profile.html" class="btn btn-primary">See Profile</a>
+                </div>
             </div>
         </div>
+
     </div>
 </body>
 
