@@ -82,3 +82,7 @@ body{
 #header h2 {
 	font-size: 18px;
 }
+div.leftSide {
+  position: absolute;
+  left: 100px;
+}
