@@ -86,6 +86,14 @@ div.leftSide {
   position: absolute;
   left: 20px;
 }
+div.rightSide{
+  position: absolute;
+  right: 20px;
+}
+div.bottomLinks{
+  position: absolute;
+  bottom: 50px;
+}
 /* This is cssing for patricks page this allows the text to be the way that the text is which is next to each other and not vertical*/
 
 .row {
