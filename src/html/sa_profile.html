@@ -66,9 +66,9 @@
             </div>
             <hr>
             <!--Content-->
-            <div class="flex-row text-center">
+            <div class="d-flex flex-column">
                 <!--expand collapse buttons-->
-                <div class="m-1">
+                <div class="m-1 align-self-center">
                     <button class="btn btn-secondary" data-toggle="collapse" data-target="#projectCollapse"
                         role="button" aria-expanded="true" aria-controls="">Projects</button>
                     <button class="btn btn-secondary" data-toggle="collapse" data-target="#resCollapse" role="button"
@@ -76,39 +76,65 @@
                     <button class="btn btn-secondary" data-toggle="collapse" data-target="#aboutMe" role="button"
                         aria-expanded="false" aria-controls="">About Me</button>
                 </div>
-                <!--Resume Div-->
-                <div class="collapse" id="resCollapse">
-                    <div class="container pdf-window-container p-2">
-                        <embed class="pdf-window" src="../../assets/resumes/sa_resume.pdf" type="application/pdf">
-                    </div>
-                </div>
-                <!--Project Div-->
-                <div class="collapse show" id="projectCollapse">
-                    <div class="d-flex flex-row">
-                        <div class="card p-2 m-auto" style="width:18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 1</h5>
-                                <p class="card-text">Something here</p>
-                            </div>
-                        </div>
-                        <div class="card p-2 m-auto" style="width:18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 1</h5>
-                                <p class="card-text">Something here</p>
-                            </div>
-                        </div>
-                        <div class="card p-2 m-auto" style="width:18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 1</h5>
-                                <p class="card-text">Something here</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--About Me-->
-                <div class="collapse" id="aboutMe">
+                <!--Collapse Items-->
+                <div class="d-flex justify-content-evenly mt-2">
 
+                    <!--Project Div-->
+                    <div class="collapse show" id="projectCollapse">
+                        <div class="d-flex flex-row flex-wrap justify-content-evenly">
+                            <div class="card p-2 m-2" style="width:18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                    <p class="card-text">Something here</p>
+                                </div>
+                            </div>
+                            <div class="card p-2 m-2" style="width:18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                    <p class="card-text">Something here</p>
+                                </div>
+                            </div>
+                            <div class="card p-2 m-2" style="width:18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                    <p class="card-text">Something here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Resume Div-->
+                    <div class="collapse align-self-center" id="resCollapse">
+                        <div class="container pdf-window-container p-2">
+                            <embed class="pdf-window" src="../../assets/resumes/sa_resume.pdf" type="application/pdf">
+                        </div>
+                    </div>
+
+                    <!--About Me-->
+                    <div class="collapse" id="aboutMe">
+                        <div class=" container d-flex flex-column">
+                            <h3 class="align-self-center">Education</h3>
+
+                            <a class="align-self-center" href="https://www.ocean.edu/" target="_blank"><img class="m-3"
+                                    src="../../assets/images/occ.webp" style="width:10rem;" alt="OCC logo"></a>
+                            <div>
+                                I graduated Ocean County College <i>Summa Cum Laude</i> in 2020 with an Associate in
+                                Science for Mathematics.
+                            </div>
+                            <a class="align-self-center" href="https://stockton.edu/" target="_blank"><img class="m-3"
+                                    src="../../assets/images/STK-Logo-Web/STK-primary-logo_web.png" style="width:10rem;"
+                                    alt="Stockton logo"></a>
+                            <div>
+                                I graduated Stockton University <i>Summa Cum Laude</i> in 2022 with a Bachelor's Degree
+                                in
+                                Computer Science.
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
+
 
 
 
