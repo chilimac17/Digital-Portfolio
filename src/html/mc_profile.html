@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="../css/profile.css"/>
+<link rel="stylesheet" href="../css/profile.css" />
 
 <html lang="en">
 
 <head>
     <center>
         <div class=headerHome>
-            <h1><font>Welcome To Michael Chillemi's Page</font></h1>
+            <h1>
+                <font>Welcome To Michael Chillemi's Page</font>
+            </h1>
             <p>View his digital portfolio below.</p>
         </div>
     </center>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,36 +23,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        
+
     <link rel="stylesheet" href="../css/profile.css">
 </head>
 
 <body>
-     <!-- NAVBAR -->  
-     <div class="topnav" id="myTopnav">
+    <!-- NAVBAR -->
+    <div class="topnav" id="myTopnav">
         <a href="../html/splash.html" class="active">Home</a>
         <a href="../html/pn_profile.html">Patrick's portfolio</a>
-        <a href="../html/sa_profile.html" >Steven's portfolio</a>
+        <a href="../html/sa_profile.html">Steven's portfolio</a>
         <a href="../html/mc_profile.html">Michael's portfolio</a>
-        
+
     </div>
     <!--Splash Cards-->
     <!--TODO: Use angular to automate creation of cards to support multiple users-->
     <div class="content">
-        <div class="leftSide">
-            <div class="container profile-image-container p-2">
-                <img class="profile-image" src="../../assets/images/mc_profile.jfif" alt="">
+        <div class="row">
+            <div class="col">
+                <div class="leftSide">
+                    <div class="container profile-image-container p-2">
+                        <img class="profile-image" src="../../assets/images/mc_profile.jfif" alt="">
+                    </div>
+                    <div class="container pdf-window-container p-2">
+                        <embed class="pdf-window" src="../../assets/resumes/mc_resume.pdf" type="application/pdf">
+                    </div>
+                </div>
             </div>
-            <div class="container pdf-window-container p-2">
-                <embed class="pdf-window" src="../../assets/resumes/mc_resume.pdf" type="application/pdf">
-            </div>
-        </div>
-        <div class="d-flex flex-row">
-            <div class="card p-2 m-auto" style="width:18rem;">
-                <a href="https://github.com/eddietran/ChillPortal">
-                    <div class="card-body">
-                        <h5 class="card-title">Health Spine and Wellness Center Patient Portal</h5>
-                        <p class="card-text">Patient Portal</p>
+            <div class="col">
+                <div class="d-flex flex-row flex-wrap">
+                    <div class="card p-2 m-auto" style="width:18rem;">
+                        <a href="https://github.com/eddietran/ChillPortal">
+                            <div class="card-body">
+                                <h5 class="card-title">Health Spine and Wellness Center Patient Portal</h5>
+                                <p class="card-text">Patient Portal</p>
+                            </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -58,7 +66,7 @@
                <a href="https://github.com/eddietran/ChillPortal">
                    <div class="card-body">
                         <h5 class="card-title">Covid Vaccine Managment System</h5>
-                        <p class="card-text">Java GUI</p>
+                        <p class="card-text">Java GUI Project</p>
                     </div>
                </a>
             </div>
@@ -79,6 +87,8 @@
                 </a>
             </div>
         </div>
+
+
     </div>
 </body>
 
