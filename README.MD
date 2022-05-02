@@ -1,11 +1,3 @@
-Ideas - Steve's:
-    Should we use angular for this as we can create a 'template' that we can build off of for each page to be unique?
-
-    Splashpage for landing with icons for linked pages
-        - Click on a profile to navigate to that person's profile
-    Profile:
-        - Resume
-            * https://pdfobject.com/
-        - Image
-        - Contact
-        - Projects
+# Digital Portfolio
+## Web Application Engineering - Spring 2022
+In this project we sought to build a version of a custom portfolio website. There are many similar things such as just building your own website and hosting it on GitHub, or even a place like LinkedIn. As a group we worked on a main splash page that would have links to our respective portfolios. We designed our own portfolio pages to show the range of techniques that we have learned in the class.
